@@ -10,13 +10,10 @@ using Newtonsoft.Json;
 
 namespace MSTranslatorDemo
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
+   //Funcionalidades
     public partial class MainWindow : Window
     {
-        // This sample uses the Cognitive Services subscription key for all services. To learn more about
-        // authentication options, see: https://docs.microsoft.com/azure/cognitive-services/authentication.
+       
         const string COGNITIVE_SERVICES_KEY = "029c9d9f26274de09274271de5b1c1d9";
         // Endpoints for Translator and Bing Spell Check
         public static readonly string TEXT_TRANSLATION_API_ENDPOINT = "https://api.cognitive.microsofttranslator.com/{0}?api-version=3.0";
