@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MSTranslatorDemo"
         mc:Ignorable="d"
         Title="Microsoft Translator" Height="400" Width="700" BorderThickness="0">
-    <Grid Background="#FFD09494">
+    <Grid Background="#FFD09494" Margin="0,0,-6.4,-19.6">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
